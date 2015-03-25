@@ -21,11 +21,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="scotthartbti/platform_build" revision="lp5.0" >
+  <project path="build" name="scotthartbti/platform_build" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="scotthartbti/android" revision="lp5.0" />
+  <project path="android" name="tri-polar/android" revision="lp5.1" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -481,7 +481,7 @@
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="scotthartbti/android_packages_inputmethods_LatinIME" revision="lp5.0" />
+  <project path="packages/inputmethods/LatinIME" name="scotthartbti/android_packages_inputmethods_LatinIME" revision="lp5.1" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
@@ -559,7 +559,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="scotthartbti/platform_system_core" revision="lp5.0" />
+  <project path="system/core" name="scotthartbti/platform_system_core" revision="lp5.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
@@ -579,6 +579,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/beanstalk" name="scotthartbti/android_vendor_beanstalk" revision="lp5.0" />
+  <project path="vendor/beanstalk" name="scotthartbti/android_vendor_beanstalk" revision="lp5.1" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 </manifest>
